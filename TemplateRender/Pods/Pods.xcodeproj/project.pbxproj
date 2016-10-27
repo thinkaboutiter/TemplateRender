@@ -7,42 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09319DC7FF28A7E69562C0CE680CEA34 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		0F787EBF9071328BC31B6F6D1FDA24C7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		15DEB2DD31B88E5B9FCFC40763CD1F57 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D8991DAC17CCB3288CDB0C060B1B1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		210E54DB4CD8F8309D1C7A1D4D563F09 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A536938A562BEF68C6F29BF98B50B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		401E584A250A351D34B366F63187A081 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		423C547758DEF5005C0494CBCECB4484 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		525C1EB1DF453A0E070E60844577C8DF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57B36412B5BD74147DB295928B6C0733 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B25FE8DC265E9248284275B868405EF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		747D181536AE92CD19C540EEA3DF3305 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83FA429634DF5ACFE4355FA4132BCC05 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		95F38B253E62525CC55EFFA47BDD079D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		9C56F82544D73673FC3A918FA3ED0A6A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		9EA68AA14A2276AD028A414AA83DEE70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		A30195AF7E9E75DC2ABB0BCC48244046 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		A65A973EEC919DB0C61C0124ABA45FF6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD48CE47A6023CFDD8418D29AAB186D8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		AF51CE6F828399B4CAA32666182086D3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1B483470175E915F533437CCCC21290 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		C246E48ABEA4F6963D5E8E15D79F1DC4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		D00212A2142350D22692D6EDECEFB48A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		D11F2C1C9F89043AE6690329039CF10D /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCD8D73BCE673D670BAB2672D57D2F70 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD89DF835681D08EABA793D61E60D284 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0BBEA076160D71EC938B733F5348AC1 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1C7626ABE4D5E95193720E0806B52B1 /* Pods-TemplateRender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D559051FE4181FB719C5042410E54965 /* Pods-TemplateRender-dummy.m */; };
-		E641EBCA8FC60CDC04C4C12A25D5B887 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F679E99C99A0142F9C18487EE4957661 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DE6FBFAC50DD8F8937889527A0A36C /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
-		FA84FB22CDE88D97137334F37E966846 /* Pods-TemplateRender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C3DE580628333EFE6B74337CB2AC71 /* Pods-TemplateRender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		020E57A5DBCC5F2C60A509DBDD60A35B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */; };
+		06E2A896A8FE48BCA6280CC02430DA96 /* AGGeometryKitCoreGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = E5ADB6E3FA7E6307E6681F2F827C9677 /* AGGeometryKitCoreGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09319DC7FF28A7E69562C0CE680CEA34 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F7474979BE5099ED2CDC3C797033B /* MASCompositeConstraint.m */; };
+		0F787EBF9071328BC31B6F6D1FDA24C7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C9689D66B20FAF0B2ADB3FC450B735 /* NSArray+MASAdditions.m */; };
+		110C3CB15ED7464E59F34FACE685E6C8 /* UIImage+AGK+CATransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = C49047EC43789FF981AE9AB0BD703FE0 /* UIImage+AGK+CATransform3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15DEB2DD31B88E5B9FCFC40763CD1F57 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB06C4200694B1F9EF65525E289A4E8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17DFB87823234225C008F38419153B69 /* UIView+AGK+AngleConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1622902923A8B142EB17A48A8A2A95 /* UIView+AGK+AngleConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E1F15BA45FD9E7F67D657A313705F8 /* UIImage+AGKQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = AF2CE7C04090B6BC9E82ECAA28C2998C /* UIImage+AGKQuad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FCFA01B81C22770DEC91491AA40A74 /* AGKTransformPixelMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0124127A75824E910F72E5FDD1BC74E3 /* AGKTransformPixelMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19BEBDBC8C9DA684CF7450E896ADE3F2 /* AGKBaseDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 979D7B5D2E3132582051728952EEB7D3 /* AGKBaseDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8991DAC17CCB3288CDB0C060B1B1B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		1F23D37765CFEEDCC501B3A74FB9B8D0 /* AGGeometryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E786A4423E462E530B2645213731C26 /* AGGeometryKit-dummy.m */; };
+		210E54DB4CD8F8309D1C7A1D4D563F09 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 253CFD2C6AAC02D7E7C0E2A23016ED22 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21FAA29B6F7C3B00E8C1F218DCD60758 /* CALayer+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EF92E6723F391FF8128F6005CE3D66 /* CALayer+AGK+Properties.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		27A26A5F4D57DA6A375F6DCD7816D9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		2E3963358076CBE4834B4A54F5793E4F /* UIImage+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 02513E06A8CE943791B53701AA8197D9 /* UIImage+AGKQuad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30E4CA5D58017EAB62773FA95C043D48 /* UIScrollView+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD2DAA1B3CF014826B313FB4B84F17 /* UIScrollView+AGK+Properties.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34291C4FAF99FA037097DD7EC54445A6 /* UIBezierPath+AGKQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = A93515B94B9B08B3D2F919DE01A8FCD5 /* UIBezierPath+AGKQuad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A9BB112EC4C1DF38BB4796CFADFC98 /* CGGeometry+AGGeometryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DFFA7864F79D5025C8DF29766CF241 /* CGGeometry+AGGeometryKit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F15D0F794C1A1D6223990C4ACE84B6C /* NSValue+AGKQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB32073559307FC139CDDCA49B5FA30 /* NSValue+AGKQuad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401E584A250A351D34B366F63187A081 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D537068A4FA4F0333594E3F0EB32F0E6 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41240DE1301495621A2D2126D09F7127 /* AGKMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = A3584CF96E3DFF220E4A7E597415743D /* AGKMatrix.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		423C547758DEF5005C0494CBCECB4484 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1480B46AE2DE57BA82D5C4581D82A9 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42BC2D795995AAB180396D8646500261 /* AGKMatrix+AGKVector3D.h in Headers */ = {isa = PBXBuildFile; fileRef = EA24919B83154280EC345B0EA3620759 /* AGKMatrix+AGKVector3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FB89DEC67F5B4CF3E888B771009768 /* AGKCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A6D827B4A0683EBABCF6E3B894039F /* AGKCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C26E08647DEFE5D5E632DE37CE8607 /* CGGeometry+AGGeometryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5832D81C88F30C7E8E3ABF3AABE02BD2 /* CGGeometry+AGGeometryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F71F6D416D4C11FC3373048D9A10569 /* AGKMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE2FA8A08DB7FAC505D4309CC5904A3 /* AGKMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508762ABA8DDE0364EFAB0FC565F0038 /* AGGeometryKitCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 399502F252CE6AC49B80287C52220D6C /* AGGeometryKitCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		525C1EB1DF453A0E070E60844577C8DF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9642FBB8A86C032DBAFF5A5552810DC5 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B36412B5BD74147DB295928B6C0733 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CE233CA193A836F970A71EC7011E1B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		587B73CB82E01E288B06E5B35FEBE4FF /* AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 266CC7FD132A557C0422634A0C2DFC4D /* AGKQuad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B25FE8DC265E9248284275B868405EF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 671EF98A2C9C8C59ABF40CB27219FBE4 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D3C95D81020B4686D37F44E2FA37E17 /* CALayer+AGKQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BA437EAF8E8C7ECA8F6E10CB859C7D /* CALayer+AGKQuad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2AFE1ACF610A08629E6D8B8DBC9B2F /* AGKMatrix+GLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD64CFEEDC945A55DC9BA201169415 /* AGKMatrix+GLKit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66DE7975E34BEF1FAD351A54D71976CE /* AGGeometryKitClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2CF04B7C22F08E148C56C10F081F05 /* AGGeometryKitClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C08C8FA3552A51C1BBADC97800CA0EA /* AGGeometryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27EDA064877D25792EB0112CD1FEB10A /* AGGeometryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFCE8E4BA4D4BE185D8CF9915A5EDEA /* AGKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3619D37B5DBF5E8161A447D830EE0 /* AGKMath.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D56DD16A4BFD66C97800817D921272C /* AGKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B148BB286883F6B984EFF1CEB9178AC /* AGKLine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E24808978756F72A9AA832EEFE1AEF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */; };
+		742C407253A5B6B1F943B3D025C5F4CC /* CALayer+AGK+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DC34137E318A32B1B4EFE5B67B85B8 /* CALayer+AGK+Methods.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		747D181536AE92CD19C540EEA3DF3305 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8B53A72DD006FCB72BDBBA51EA0ED /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7735E4ACF375EC39860BE6A461A95A3B /* Pods-TemplateRender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C3DE580628333EFE6B74337CB2AC71 /* Pods-TemplateRender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C07CBED3D60EFF7CB7731E8CEBA83FC /* UIScrollView+AGK+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 36801084C0D990A3A18AF397B7E907BD /* UIScrollView+AGK+Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C50C92D9DE41997D017EE7033CFC2CF /* CALayer+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = E70D4482CE877F885061B1CDEAA05E47 /* CALayer+AGKQuad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8231899A02B3EBBF5A5466CACAA4EA21 /* UIImage+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C44327BD9465EEA81BBF9974FEFCA /* UIImage+AGK+CATransform3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83FA429634DF5ACFE4355FA4132BCC05 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B84A82099D5E9E9F2D36E093F3BDA617 /* ViewController+MASAdditions.m */; };
+		867CA4DC7AB43B29350A77F14A72575E /* CGImageRef+AGK+CATransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E31529869AEB30808A29D472C37B55 /* CGImageRef+AGK+CATransform3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BCDA03160B0E24FA0518CA03D6567CF /* AGKCALayerAnimationBlockDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A418415798FC08F926D87DC655F38649 /* AGKCALayerAnimationBlockDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF98E48A95C4CC9513505D6D762661E /* AGKTransformPixelMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE559F3501373BE2054A558A1D0C663 /* AGKTransformPixelMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		915AE3658A24199B722EC57902A5D01C /* AGKLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CC43147792D926F8D0FA280CD8E322 /* AGKLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91680DAE95DBBC0517D2A032D7A07F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		91C538FC8FD90C8E88678AE6A0324BBB /* AGKBitOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A17CB182284B6137D2A7E1618FD82FA /* AGKBitOperations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DDCA4CC00317AD0D7A25B574979B8F /* AGKQuad.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F460A5F34E648E18AD472F265CC2AC9 /* AGKQuad.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9254AE7F1F910C7B12EF402DC4E3468F /* UIView+AGK+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B630DE99C56CDEB929BB8F53915303 /* UIView+AGK+Properties.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		95AAE274BB2C93ED6D3798C90CA38948 /* AGKCALayerAnimationBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AABD8EEBBD69B21DA7A571B0D5C353 /* AGKCALayerAnimationBlockDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95F38B253E62525CC55EFFA47BDD079D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C7AC478D438073FA5D3A50FF724B37 /* MASConstraintMaker.m */; };
+		9C56F82544D73673FC3A918FA3ED0A6A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6DC01F15FF508BCF65D0494FF9D89A /* MASViewAttribute.m */; };
+		9EA68AA14A2276AD028A414AA83DEE70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		A29F6492DB33047EC91719B1F6F37452 /* AGKMatrix+GLKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4060D0FA1131B8132CD1033A182BA15A /* AGKMatrix+GLKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A30195AF7E9E75DC2ABB0BCC48244046 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0618B4460B1C86BFCE66A7D7F07B476B /* MASViewConstraint.m */; };
+		A3A43B4FCB4E639A4417C93946D8F625 /* AGKMatrix+AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = D7688005B1E20572316EE0FF56FFED1E /* AGKMatrix+AGKVector3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A3A5FD21F6E3FB4309D7DC5DBE6430BD /* AGKVector3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 357EB661BA1EDD61F92BD0F41A67C539 /* AGKVector3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A62277BB87C74C893BF832EC80040AA2 /* UIBezierPath+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F765878662225C8F36CF707E7AD3218 /* UIBezierPath+AGKQuad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A65A973EEC919DB0C61C0124ABA45FF6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34394EB055F9C87C0821979FCD348BC3 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3475A9FFC760BEA95A6F838F0DD48A /* NSValue+AGKQuad.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CE1E3631A39E1B489887B6DD2E1F6A /* NSValue+AGKQuad.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AD48CE47A6023CFDD8418D29AAB186D8 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87365676FD9DF545572B30EE3EC1ED9E /* View+MASAdditions.m */; };
+		AF51CE6F828399B4CAA32666182086D3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB400AD6D5DB0F6861D1EE59BF665036 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B3580001BF0A906DD9788931CA1EC8 /* UIView+AGK+AngleConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B350F8BED41374758E6919C0B27C14C1 /* UIView+AGK+AngleConverter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B661751E83CF3CC34EA9CD6E1750D355 /* CGImageRef+AGK+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = A138A5C78DF77B2ACDC655A67DF164D6 /* CGImageRef+AGK+CATransform3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C14D340EC0D1D6AC6EF155CCD17A7109 /* AGKVector3D.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B3CFDAB474AAE9273CA01A06E82FA9 /* AGKVector3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B483470175E915F533437CCCC21290 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3D2366B9FC46C7867224AF81E5C30 /* MASConstraint.m */; };
+		C246E48ABEA4F6963D5E8E15D79F1DC4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FA689BBC575518366C920608201FC7AB /* MASLayoutConstraint.m */; };
+		C74044DCBCEEACD3A23A54CCCFEEBC6B /* UIView+AGK+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FC7F1D89657DF24963844B34466AF9 /* UIView+AGK+Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0C8836CEDCB661B52EA025D8DB2409 /* CALayer+AGK+Methods.h in Headers */ = {isa = PBXBuildFile; fileRef = B8249F53899CC908831345FD7C2EB4FA /* CALayer+AGK+Methods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7B87273214059A0054983F9186CDBD /* AGKMath.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A1347BDD294B2B7CE73A3A114AEE14 /* AGKMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00212A2142350D22692D6EDECEFB48A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E42C98144F540C877E9C74AB2288EDC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D11F2C1C9F89043AE6690329039CF10D /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2723D8F8B9144CA6118787C3E07AFE /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3ECE2B579067FD421AF0279A8ADB981 /* CALayer+AGK+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = DC85B5A2E0ACFBF832EBE6CADC4F6694 /* CALayer+AGK+Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52718BA21260CCD7A201D8868D037AC /* AGKMatrix+CATransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB1700726EE9B20BF62CA9A7A458D4F /* AGKMatrix+CATransform3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D76E860A1DE827CCEAEAE5BC575E7F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		D923508E09157E3F4F439D637928EB96 /* AGKMatrix+CATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 8751BE0B07644E5F69186719D071B91A /* AGKMatrix+CATransform3D.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DCD8D73BCE673D670BAB2672D57D2F70 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D654CB9724C520E89ACFFB26529B19E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD89DF835681D08EABA793D61E60D284 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A83E1D998ADB0C97911BA954645F816 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0BBEA076160D71EC938B733F5348AC1 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8557FE158D6C2BB3D1C056634E04AF /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E641EBCA8FC60CDC04C4C12A25D5B887 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 175503EAAD9E7C770149C230319AB065 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F1C5D63F4951DB8A0259625E0F1554 /* AGGeometryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F637EA1F62674CF38219A4D23E6B3C5 /* AGGeometryKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F679E99C99A0142F9C18487EE4957661 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E4E3AA0EBCFAAA7AE9AD5BFECB17C7 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F69EAF22C6A4C194F053134C51B92421 /* Pods-TemplateRender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D559051FE4181FB719C5042410E54965 /* Pods-TemplateRender-dummy.m */; };
+		F751E1BCE375731A0AD765487B279B14 /* AGKCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E336C6F4825C7AA847AE9111E0E06C /* AGKCorner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7DE6FBFAC50DD8F8937889527A0A36C /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8F403355C1EE19AE5908DF9E65C92 /* Masonry-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B17C63B5C41A3AC977AAAE85BCFF51C0 /* PBXContainerItemProxy */ = {
+		2AEDF98C14A227BE835E37054927A529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE23B5F68C9FF908330426BF9C591EA;
+			remoteInfo = AGGeometryKit;
+		};
+		6E70C178636D9947D3B07350F9960AC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -52,55 +117,127 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		00B630DE99C56CDEB929BB8F53915303 /* UIView+AGK+Properties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AGK+Properties.m"; path = "AGGeometryKit/Categories/UIView+AGK+Properties.m"; sourceTree = "<group>"; };
+		0124127A75824E910F72E5FDD1BC74E3 /* AGKTransformPixelMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKTransformPixelMapper.h; path = AGGeometryKit/Classes/AGKTransformPixelMapper.h; sourceTree = "<group>"; };
+		02513E06A8CE943791B53701AA8197D9 /* UIImage+AGKQuad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AGKQuad.m"; path = "AGGeometryKit/Categories/UIImage+AGKQuad.m"; sourceTree = "<group>"; };
+		05BA437EAF8E8C7ECA8F6E10CB859C7D /* CALayer+AGKQuad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AGKQuad.h"; path = "AGGeometryKit/Categories/CALayer+AGKQuad.h"; sourceTree = "<group>"; };
+		0618B4460B1C86BFCE66A7D7F07B476B /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		0AA8B53A72DD006FCB72BDBBA51EA0ED /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		0CAD2DAA1B3CF014826B313FB4B84F17 /* UIScrollView+AGK+Properties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+AGK+Properties.m"; path = "AGGeometryKit/Categories/UIScrollView+AGK+Properties.m"; sourceTree = "<group>"; };
+		0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0F637EA1F62674CF38219A4D23E6B3C5 /* AGGeometryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGGeometryKit.h; path = AGGeometryKit/AGGeometryKit.h; sourceTree = "<group>"; };
+		0F765878662225C8F36CF707E7AD3218 /* UIBezierPath+AGKQuad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+AGKQuad.m"; path = "AGGeometryKit/Categories/UIBezierPath+AGKQuad.m"; sourceTree = "<group>"; };
+		14135181C4BDEC6B842EF06D0360CA8C /* AGGeometryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGGeometryKit.xcconfig; sourceTree = "<group>"; };
+		146A3D5E2EF702616F6ACCC9C3247CD7 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		175503EAAD9E7C770149C230319AB065 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		18D53EEC280372E581051C6C55882517 /* Pods-TemplateRender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TemplateRender.debug.xcconfig"; sourceTree = "<group>"; };
-		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1E786A4423E462E530B2645213731C26 /* AGGeometryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGGeometryKit-dummy.m"; sourceTree = "<group>"; };
 		20EA58BCDC0F1AB9794B25B3424FE30A /* Pods-TemplateRender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TemplateRender.modulemap"; sourceTree = "<group>"; };
-		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
-		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		253CFD2C6AAC02D7E7C0E2A23016ED22 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		266CC7FD132A557C0422634A0C2DFC4D /* AGKQuad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKQuad.m; path = AGGeometryKit/AGKQuad.m; sourceTree = "<group>"; };
+		27EDA064877D25792EB0112CD1FEB10A /* AGGeometryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGGeometryKit-umbrella.h"; sourceTree = "<group>"; };
+		2DF3619D37B5DBF5E8161A447D830EE0 /* AGKMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKMath.m; path = AGGeometryKit/AGKMath.m; sourceTree = "<group>"; };
 		31AD9EFF218C107A115898268F08B8A7 /* Pods-TemplateRender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TemplateRender.release.xcconfig"; sourceTree = "<group>"; };
+		34394EB055F9C87C0821979FCD348BC3 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		357EB661BA1EDD61F92BD0F41A67C539 /* AGKVector3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKVector3D.m; path = AGGeometryKit/AGKVector3D.m; sourceTree = "<group>"; };
+		36801084C0D990A3A18AF397B7E907BD /* UIScrollView+AGK+Properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+AGK+Properties.h"; path = "AGGeometryKit/Categories/UIScrollView+AGK+Properties.h"; sourceTree = "<group>"; };
 		369C08037F81CB1018C736E4987063D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DDBB430B55A564F4E36C0E4E925DA0 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		37C3DE580628333EFE6B74337CB2AC71 /* Pods-TemplateRender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TemplateRender-umbrella.h"; sourceTree = "<group>"; };
-		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3930FA503B0A298267F543380F7E321E /* AGGeometryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGGeometryKit.modulemap; sourceTree = "<group>"; };
+		399502F252CE6AC49B80287C52220D6C /* AGGeometryKitCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGGeometryKitCategories.h; path = AGGeometryKit/Categories/AGGeometryKitCategories.h; sourceTree = "<group>"; };
+		4060D0FA1131B8132CD1033A182BA15A /* AGKMatrix+GLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGKMatrix+GLKit.h"; path = "AGGeometryKit/Categories/AGKMatrix+GLKit.h"; sourceTree = "<group>"; };
+		42FC7F1D89657DF24963844B34466AF9 /* UIView+AGK+Properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AGK+Properties.h"; path = "AGGeometryKit/Categories/UIView+AGK+Properties.h"; sourceTree = "<group>"; };
+		43A6D827B4A0683EBABCF6E3B894039F /* AGKCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKCorner.h; path = AGGeometryKit/AGKCorner.h; sourceTree = "<group>"; };
+		43CE1E3631A39E1B489887B6DD2E1F6A /* NSValue+AGKQuad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+AGKQuad.m"; path = "AGGeometryKit/Categories/NSValue+AGKQuad.m"; sourceTree = "<group>"; };
+		43E31529869AEB30808A29D472C37B55 /* CGImageRef+AGK+CATransform3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGImageRef+AGK+CATransform3D.h"; path = "AGGeometryKit/CoreGraphics_Extensions/CGImageRef+AGK+CATransform3D.h"; sourceTree = "<group>"; };
 		450974F2B668F87F9BF7DADC44864870 /* Pods-TemplateRender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TemplateRender-acknowledgements.markdown"; sourceTree = "<group>"; };
-		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DFFA7864F79D5025C8DF29766CF241 /* CGGeometry+AGGeometryKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+AGGeometryKit.m"; path = "AGGeometryKit/CoreGraphics_Extensions/CGGeometry+AGGeometryKit.m"; sourceTree = "<group>"; };
+		4A83E1D998ADB0C97911BA954645F816 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4F7BAAF6A1E8B86C1827F92B828BDB80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50EF92E6723F391FF8128F6005CE3D66 /* CALayer+AGK+Properties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AGK+Properties.m"; path = "AGGeometryKit/Categories/CALayer+AGK+Properties.m"; sourceTree = "<group>"; };
+		51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		53BBCDB77553D48E992A94975FB419FD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
+		5832D81C88F30C7E8E3ABF3AABE02BD2 /* CGGeometry+AGGeometryKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+AGGeometryKit.h"; path = "AGGeometryKit/CoreGraphics_Extensions/CGGeometry+AGGeometryKit.h"; sourceTree = "<group>"; };
+		5AA8F403355C1EE19AE5908DF9E65C92 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		65AABD8EEBBD69B21DA7A571B0D5C353 /* AGKCALayerAnimationBlockDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKCALayerAnimationBlockDelegate.m; path = AGGeometryKit/Classes/AGKCALayerAnimationBlockDelegate.m; sourceTree = "<group>"; };
+		6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		671EF98A2C9C8C59ABF40CB27219FBE4 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		68DC34137E318A32B1B4EFE5B67B85B8 /* CALayer+AGK+Methods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AGK+Methods.m"; path = "AGGeometryKit/Categories/CALayer+AGK+Methods.m"; sourceTree = "<group>"; };
+		7A17CB182284B6137D2A7E1618FD82FA /* AGKBitOperations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKBitOperations.h; path = AGGeometryKit/AGKBitOperations.h; sourceTree = "<group>"; };
 		81E89A5AF2B87FBCA30619B2D524670E /* Pods-TemplateRender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TemplateRender-resources.sh"; sourceTree = "<group>"; };
+		85CE233CA193A836F970A71EC7011E1B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		85E4E3AA0EBCFAAA7AE9AD5BFECB17C7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		87365676FD9DF545572B30EE3EC1ED9E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		8751BE0B07644E5F69186719D071B91A /* AGKMatrix+CATransform3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AGKMatrix+CATransform3D.m"; path = "AGGeometryKit/Categories/AGKMatrix+CATransform3D.m"; sourceTree = "<group>"; };
+		8A6C44327BD9465EEA81BBF9974FEFCA /* UIImage+AGK+CATransform3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AGK+CATransform3D.m"; path = "AGGeometryKit/Categories/UIImage+AGK+CATransform3D.m"; sourceTree = "<group>"; };
+		8D3F7474979BE5099ED2CDC3C797033B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8D654CB9724C520E89ACFFB26529B19E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		8E1622902923A8B142EB17A48A8A2A95 /* UIView+AGK+AngleConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AGK+AngleConverter.h"; path = "AGGeometryKit/Categories/UIView+AGK+AngleConverter.h"; sourceTree = "<group>"; };
+		8E42C98144F540C877E9C74AB2288EDC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		93CC43147792D926F8D0FA280CD8E322 /* AGKLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKLine.h; path = AGGeometryKit/AGKLine.h; sourceTree = "<group>"; };
+		94DD64CFEEDC945A55DC9BA201169415 /* AGKMatrix+GLKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AGKMatrix+GLKit.m"; path = "AGGeometryKit/Categories/AGKMatrix+GLKit.m"; sourceTree = "<group>"; };
+		9642FBB8A86C032DBAFF5A5552810DC5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		979D7B5D2E3132582051728952EEB7D3 /* AGKBaseDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKBaseDefines.h; path = AGGeometryKit/AGKBaseDefines.h; sourceTree = "<group>"; };
+		9B148BB286883F6B984EFF1CEB9178AC /* AGKLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKLine.m; path = AGGeometryKit/AGKLine.m; sourceTree = "<group>"; };
+		9BB06C4200694B1F9EF65525E289A4E8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		9F460A5F34E648E18AD472F265CC2AC9 /* AGKQuad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKQuad.h; path = AGGeometryKit/AGKQuad.h; sourceTree = "<group>"; };
+		A138A5C78DF77B2ACDC655A67DF164D6 /* CGImageRef+AGK+CATransform3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGImageRef+AGK+CATransform3D.m"; path = "AGGeometryKit/CoreGraphics_Extensions/CGImageRef+AGK+CATransform3D.m"; sourceTree = "<group>"; };
+		A295FDC54997CDD30A2F33CD85A7D139 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3584CF96E3DFF220E4A7E597415743D /* AGKMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKMatrix.m; path = AGGeometryKit/Classes/AGKMatrix.m; sourceTree = "<group>"; };
+		A418415798FC08F926D87DC655F38649 /* AGKCALayerAnimationBlockDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKCALayerAnimationBlockDelegate.h; path = AGGeometryKit/Classes/AGKCALayerAnimationBlockDelegate.h; sourceTree = "<group>"; };
+		A8A1347BDD294B2B7CE73A3A114AEE14 /* AGKMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKMath.h; path = AGGeometryKit/AGKMath.h; sourceTree = "<group>"; };
+		A93515B94B9B08B3D2F919DE01A8FCD5 /* UIBezierPath+AGKQuad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+AGKQuad.h"; path = "AGGeometryKit/Categories/UIBezierPath+AGKQuad.h"; sourceTree = "<group>"; };
 		A9CE26216C634CD1C8E5604A7D2D2C6F /* Pods-TemplateRender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TemplateRender-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		ADE559F3501373BE2054A558A1D0C663 /* AGKTransformPixelMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKTransformPixelMapper.m; path = AGGeometryKit/Classes/AGKTransformPixelMapper.m; sourceTree = "<group>"; };
+		AF2CE7C04090B6BC9E82ECAA28C2998C /* UIImage+AGKQuad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AGKQuad.h"; path = "AGGeometryKit/Categories/UIImage+AGKQuad.h"; sourceTree = "<group>"; };
+		B0B3CFDAB474AAE9273CA01A06E82FA9 /* AGKVector3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKVector3D.h; path = AGGeometryKit/AGKVector3D.h; sourceTree = "<group>"; };
+		B350F8BED41374758E6919C0B27C14C1 /* UIView+AGK+AngleConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AGK+AngleConverter.m"; path = "AGGeometryKit/Categories/UIView+AGK+AngleConverter.m"; sourceTree = "<group>"; };
 		B4DDEB4DDDAA25F2A4F491E6D20A0EE2 /* Pods-TemplateRender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TemplateRender-frameworks.sh"; sourceTree = "<group>"; };
-		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		C9135BF7B2FDED7A5C81B1CD6046E184 /* Pods_TemplateRender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateRender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		B6A3D2366B9FC46C7867224AF81E5C30 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		B8249F53899CC908831345FD7C2EB4FA /* CALayer+AGK+Methods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AGK+Methods.h"; path = "AGGeometryKit/Categories/CALayer+AGK+Methods.h"; sourceTree = "<group>"; };
+		B84A82099D5E9E9F2D36E093F3BDA617 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		B8C7AC478D438073FA5D3A50FF724B37 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		BEB1700726EE9B20BF62CA9A7A458D4F /* AGKMatrix+CATransform3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGKMatrix+CATransform3D.h"; path = "AGGeometryKit/Categories/AGKMatrix+CATransform3D.h"; sourceTree = "<group>"; };
+		C3B13182492319F11354AACC31D0A49B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49047EC43789FF981AE9AB0BD703FE0 /* UIImage+AGK+CATransform3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AGK+CATransform3D.h"; path = "AGGeometryKit/Categories/UIImage+AGK+CATransform3D.h"; sourceTree = "<group>"; };
+		CCA4BB90792FD3B19FF72990074AC3B7 /* Pods_TemplateRender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateRender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2723D8F8B9144CA6118787C3E07AFE /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		CD8557FE158D6C2BB3D1C056634E04AF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D2E336C6F4825C7AA847AE9111E0E06C /* AGKCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AGKCorner.m; path = AGGeometryKit/AGKCorner.m; sourceTree = "<group>"; };
+		D537068A4FA4F0333594E3F0EB32F0E6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		D559051FE4181FB719C5042410E54965 /* Pods-TemplateRender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TemplateRender-dummy.m"; sourceTree = "<group>"; };
-		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		FC114A80D56F1E88737D4EE3FE30426D /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		D7688005B1E20572316EE0FF56FFED1E /* AGKMatrix+AGKVector3D.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AGKMatrix+AGKVector3D.m"; path = "AGGeometryKit/Categories/AGKMatrix+AGKVector3D.m"; sourceTree = "<group>"; };
+		D7C9689D66B20FAF0B2ADB3FC450B735 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DB400AD6D5DB0F6861D1EE59BF665036 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DC85B5A2E0ACFBF832EBE6CADC4F6694 /* CALayer+AGK+Properties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AGK+Properties.h"; path = "AGGeometryKit/Categories/CALayer+AGK+Properties.h"; sourceTree = "<group>"; };
+		DF2CF04B7C22F08E148C56C10F081F05 /* AGGeometryKitClasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGGeometryKitClasses.h; path = AGGeometryKit/Classes/AGGeometryKitClasses.h; sourceTree = "<group>"; };
+		E5ADB6E3FA7E6307E6681F2F827C9677 /* AGGeometryKitCoreGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGGeometryKitCoreGraphics.h; path = AGGeometryKit/CoreGraphics_Extensions/AGGeometryKitCoreGraphics.h; sourceTree = "<group>"; };
+		E70D4482CE877F885061B1CDEAA05E47 /* CALayer+AGKQuad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AGKQuad.m"; path = "AGGeometryKit/Categories/CALayer+AGKQuad.m"; sourceTree = "<group>"; };
+		EA1480B46AE2DE57BA82D5C4581D82A9 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		EA24919B83154280EC345B0EA3620759 /* AGKMatrix+AGKVector3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGKMatrix+AGKVector3D.h"; path = "AGGeometryKit/Categories/AGKMatrix+AGKVector3D.h"; sourceTree = "<group>"; };
+		EBE2FA8A08DB7FAC505D4309CC5904A3 /* AGKMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AGKMatrix.h; path = AGGeometryKit/Classes/AGKMatrix.h; sourceTree = "<group>"; };
+		EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F06D20DCE0E78C17F61321F543E5C730 /* AGGeometryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGGeometryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66A5648E89BC965FD50520E0BECB04C /* AGGeometryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGGeometryKit-prefix.pch"; sourceTree = "<group>"; };
+		FA689BBC575518366C920608201FC7AB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FA6DC01F15FF508BCF65D0494FF9D89A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		FFB32073559307FC139CDDCA49B5FA30 /* NSValue+AGKQuad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+AGKQuad.h"; path = "AGGeometryKit/Categories/NSValue+AGKQuad.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25EC1C572AF5D5EC9BAB5A266D674AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E24808978756F72A9AA832EEFE1AEF0 /* CoreGraphics.framework in Frameworks */,
+				D76E860A1DE827CCEAEAE5BC575E7F94 /* Foundation.framework in Frameworks */,
+				020E57A5DBCC5F2C60A509DBDD60A35B /* QuartzCore.framework in Frameworks */,
+				91680DAE95DBBC0517D2A032D7A07F55 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		39E0CF5B11CC74096DE6216D0EE0169B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -110,17 +247,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A836F2DD19E34766D461615C2132707D /* Frameworks */ = {
+		CE92CC1B7CE87525F7B4B4B76F3F8EF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A536938A562BEF68C6F29BF98B50B07 /* Foundation.framework in Frameworks */,
+				27A26A5F4D57DA6A375F6DCD7816D9F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0701E7E8D2F81EB8EC0ED3B34DEC0D48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3930FA503B0A298267F543380F7E321E /* AGGeometryKit.modulemap */,
+				14135181C4BDEC6B842EF06D0360CA8C /* AGGeometryKit.xcconfig */,
+				1E786A4423E462E530B2645213731C26 /* AGGeometryKit-dummy.m */,
+				F66A5648E89BC965FD50520E0BECB04C /* AGGeometryKit-prefix.pch */,
+				27EDA064877D25792EB0112CD1FEB10A /* AGGeometryKit-umbrella.h */,
+				C3B13182492319F11354AACC31D0A49B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AGGeometryKit";
+			sourceTree = "<group>";
+		};
 		08465C00F36A078C8C76A9FF65A6F9DB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,96 +280,176 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+				2691F93227E549B2A03FB9E6D0C3C623 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BD05C35B49F4432FE9A74E785F2070A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0C95967DBBA228C40A7CC92C618C021 /* AGGeometryKit */,
+				27FFB922AFA75629D68A6C741663A344 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2691F93227E549B2A03FB9E6D0C3C623 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */,
+				6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */,
+				51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */,
+				EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27FFB922AFA75629D68A6C741663A344 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				671EF98A2C9C8C59ABF40CB27219FBE4 /* MASCompositeConstraint.h */,
+				8D3F7474979BE5099ED2CDC3C797033B /* MASCompositeConstraint.m */,
+				8D654CB9724C520E89ACFFB26529B19E /* MASConstraint.h */,
+				B6A3D2366B9FC46C7867224AF81E5C30 /* MASConstraint.m */,
+				85E4E3AA0EBCFAAA7AE9AD5BFECB17C7 /* MASConstraint+Private.h */,
+				9642FBB8A86C032DBAFF5A5552810DC5 /* MASConstraintMaker.h */,
+				B8C7AC478D438073FA5D3A50FF724B37 /* MASConstraintMaker.m */,
+				85CE233CA193A836F970A71EC7011E1B /* MASLayoutConstraint.h */,
+				FA689BBC575518366C920608201FC7AB /* MASLayoutConstraint.m */,
+				EA1480B46AE2DE57BA82D5C4581D82A9 /* Masonry.h */,
+				253CFD2C6AAC02D7E7C0E2A23016ED22 /* MASUtilities.h */,
+				CD2723D8F8B9144CA6118787C3E07AFE /* MASViewAttribute.h */,
+				FA6DC01F15FF508BCF65D0494FF9D89A /* MASViewAttribute.m */,
+				9BB06C4200694B1F9EF65525E289A4E8 /* MASViewConstraint.h */,
+				0618B4460B1C86BFCE66A7D7F07B476B /* MASViewConstraint.m */,
+				D537068A4FA4F0333594E3F0EB32F0E6 /* NSArray+MASAdditions.h */,
+				D7C9689D66B20FAF0B2ADB3FC450B735 /* NSArray+MASAdditions.m */,
+				4A83E1D998ADB0C97911BA954645F816 /* NSArray+MASShorthandAdditions.h */,
+				175503EAAD9E7C770149C230319AB065 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8E42C98144F540C877E9C74AB2288EDC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0AA8B53A72DD006FCB72BDBBA51EA0ED /* View+MASAdditions.h */,
+				87365676FD9DF545572B30EE3EC1ED9E /* View+MASAdditions.m */,
+				CD8557FE158D6C2BB3D1C056634E04AF /* View+MASShorthandAdditions.h */,
+				DB400AD6D5DB0F6861D1EE59BF665036 /* ViewController+MASAdditions.h */,
+				B84A82099D5E9E9F2D36E093F3BDA617 /* ViewController+MASAdditions.m */,
+				8C17807D868095885698E8AF81EEDA58 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		67AC36887927BC717581ECE71C41D282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06D20DCE0E78C17F61321F543E5C730 /* AGGeometryKit.framework */,
+				A295FDC54997CDD30A2F33CD85A7D139 /* Masonry.framework */,
+				CCA4BB90792FD3B19FF72990074AC3B7 /* Pods_TemplateRender.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
-				8EAC0554FBFCB24D8F95A95C9F3BE863 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				1BD05C35B49F4432FE9A74E785F2070A /* Pods */,
+				67AC36887927BC717581ECE71C41D282 /* Products */,
 				08465C00F36A078C8C76A9FF65A6F9DB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EAC0554FBFCB24D8F95A95C9F3BE863 /* Products */ = {
+		8C17807D868095885698E8AF81EEDA58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC114A80D56F1E88737D4EE3FE30426D /* Masonry.framework */,
-				C9135BF7B2FDED7A5C81B1CD6046E184 /* Pods_TemplateRender.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
-				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
-				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
-				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
-				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
-				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
-				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
-				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
-				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
-				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
-				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
-				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
-				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
-				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
-				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
-				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
-				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
-				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
-				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
-				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
-				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
-				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
-				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
-				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F44A621BE24B87AEF75DD7193846188 /* Info.plist */,
-				3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */,
-				61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */,
-				FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */,
-				CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */,
-				13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */,
+				4F7BAAF6A1E8B86C1827F92B828BDB80 /* Info.plist */,
+				53BBCDB77553D48E992A94975FB419FD /* Masonry.modulemap */,
+				146A3D5E2EF702616F6ACCC9C3247CD7 /* Masonry.xcconfig */,
+				5AA8F403355C1EE19AE5908DF9E65C92 /* Masonry-dummy.m */,
+				36DDBB430B55A564F4E36C0E4E925DA0 /* Masonry-prefix.pch */,
+				34394EB055F9C87C0821979FCD348BC3 /* Masonry-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+		A14E5432DF31FAE94E1F1BEB4539B4AC /* CALayerProperties */ = {
 			isa = PBXGroup;
 			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			name = iOS;
+			name = CALayerProperties;
 			sourceTree = "<group>";
 		};
-		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+		C0C95967DBBA228C40A7CC92C618C021 /* AGGeometryKit */ = {
 			isa = PBXGroup;
 			children = (
-				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+				0F637EA1F62674CF38219A4D23E6B3C5 /* AGGeometryKit.h */,
+				399502F252CE6AC49B80287C52220D6C /* AGGeometryKitCategories.h */,
+				DF2CF04B7C22F08E148C56C10F081F05 /* AGGeometryKitClasses.h */,
+				E5ADB6E3FA7E6307E6681F2F827C9677 /* AGGeometryKitCoreGraphics.h */,
+				979D7B5D2E3132582051728952EEB7D3 /* AGKBaseDefines.h */,
+				7A17CB182284B6137D2A7E1618FD82FA /* AGKBitOperations.h */,
+				A418415798FC08F926D87DC655F38649 /* AGKCALayerAnimationBlockDelegate.h */,
+				65AABD8EEBBD69B21DA7A571B0D5C353 /* AGKCALayerAnimationBlockDelegate.m */,
+				43A6D827B4A0683EBABCF6E3B894039F /* AGKCorner.h */,
+				D2E336C6F4825C7AA847AE9111E0E06C /* AGKCorner.m */,
+				93CC43147792D926F8D0FA280CD8E322 /* AGKLine.h */,
+				9B148BB286883F6B984EFF1CEB9178AC /* AGKLine.m */,
+				A8A1347BDD294B2B7CE73A3A114AEE14 /* AGKMath.h */,
+				2DF3619D37B5DBF5E8161A447D830EE0 /* AGKMath.m */,
+				EBE2FA8A08DB7FAC505D4309CC5904A3 /* AGKMatrix.h */,
+				A3584CF96E3DFF220E4A7E597415743D /* AGKMatrix.m */,
+				EA24919B83154280EC345B0EA3620759 /* AGKMatrix+AGKVector3D.h */,
+				D7688005B1E20572316EE0FF56FFED1E /* AGKMatrix+AGKVector3D.m */,
+				BEB1700726EE9B20BF62CA9A7A458D4F /* AGKMatrix+CATransform3D.h */,
+				8751BE0B07644E5F69186719D071B91A /* AGKMatrix+CATransform3D.m */,
+				4060D0FA1131B8132CD1033A182BA15A /* AGKMatrix+GLKit.h */,
+				94DD64CFEEDC945A55DC9BA201169415 /* AGKMatrix+GLKit.m */,
+				9F460A5F34E648E18AD472F265CC2AC9 /* AGKQuad.h */,
+				266CC7FD132A557C0422634A0C2DFC4D /* AGKQuad.m */,
+				0124127A75824E910F72E5FDD1BC74E3 /* AGKTransformPixelMapper.h */,
+				ADE559F3501373BE2054A558A1D0C663 /* AGKTransformPixelMapper.m */,
+				B0B3CFDAB474AAE9273CA01A06E82FA9 /* AGKVector3D.h */,
+				357EB661BA1EDD61F92BD0F41A67C539 /* AGKVector3D.m */,
+				B8249F53899CC908831345FD7C2EB4FA /* CALayer+AGK+Methods.h */,
+				68DC34137E318A32B1B4EFE5B67B85B8 /* CALayer+AGK+Methods.m */,
+				DC85B5A2E0ACFBF832EBE6CADC4F6694 /* CALayer+AGK+Properties.h */,
+				50EF92E6723F391FF8128F6005CE3D66 /* CALayer+AGK+Properties.m */,
+				05BA437EAF8E8C7ECA8F6E10CB859C7D /* CALayer+AGKQuad.h */,
+				E70D4482CE877F885061B1CDEAA05E47 /* CALayer+AGKQuad.m */,
+				5832D81C88F30C7E8E3ABF3AABE02BD2 /* CGGeometry+AGGeometryKit.h */,
+				46DFFA7864F79D5025C8DF29766CF241 /* CGGeometry+AGGeometryKit.m */,
+				43E31529869AEB30808A29D472C37B55 /* CGImageRef+AGK+CATransform3D.h */,
+				A138A5C78DF77B2ACDC655A67DF164D6 /* CGImageRef+AGK+CATransform3D.m */,
+				FFB32073559307FC139CDDCA49B5FA30 /* NSValue+AGKQuad.h */,
+				43CE1E3631A39E1B489887B6DD2E1F6A /* NSValue+AGKQuad.m */,
+				A93515B94B9B08B3D2F919DE01A8FCD5 /* UIBezierPath+AGKQuad.h */,
+				0F765878662225C8F36CF707E7AD3218 /* UIBezierPath+AGKQuad.m */,
+				C49047EC43789FF981AE9AB0BD703FE0 /* UIImage+AGK+CATransform3D.h */,
+				8A6C44327BD9465EEA81BBF9974FEFCA /* UIImage+AGK+CATransform3D.m */,
+				AF2CE7C04090B6BC9E82ECAA28C2998C /* UIImage+AGKQuad.h */,
+				02513E06A8CE943791B53701AA8197D9 /* UIImage+AGKQuad.m */,
+				36801084C0D990A3A18AF397B7E907BD /* UIScrollView+AGK+Properties.h */,
+				0CAD2DAA1B3CF014826B313FB4B84F17 /* UIScrollView+AGK+Properties.m */,
+				8E1622902923A8B142EB17A48A8A2A95 /* UIView+AGK+AngleConverter.h */,
+				B350F8BED41374758E6919C0B27C14C1 /* UIView+AGK+AngleConverter.m */,
+				42FC7F1D89657DF24963844B34466AF9 /* UIView+AGK+Properties.h */,
+				00B630DE99C56CDEB929BB8F53915303 /* UIView+AGK+Properties.m */,
+				A14E5432DF31FAE94E1F1BEB4539B4AC /* CALayerProperties */,
+				0701E7E8D2F81EB8EC0ED3B34DEC0D48 /* Support Files */,
+				C5E3C3AB138201D5B3BFFD422995865D /* UIViewProperties */,
 			);
-			name = Pods;
+			path = AGGeometryKit;
+			sourceTree = "<group>";
+		};
+		C5E3C3AB138201D5B3BFFD422995865D /* UIViewProperties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIViewProperties;
 			sourceTree = "<group>";
 		};
 		F1EDB7303683EB074D5CA4A6313D626C /* Pods-TemplateRender */ = {
@@ -265,33 +496,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CDDC513C776370015649B966149BE6E /* Headers */ = {
+		4C2556138D797CA93F3D50746224DCCB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA84FB22CDE88D97137334F37E966846 /* Pods-TemplateRender-umbrella.h in Headers */,
+				7735E4ACF375EC39860BE6A461A95A3B /* Pods-TemplateRender-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D0E26C5651DC0B0F58FDE3FCC0AA13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08C8FA3552A51C1BBADC97800CA0EA /* AGGeometryKit-umbrella.h in Headers */,
+				F0F1C5D63F4951DB8A0259625E0F1554 /* AGGeometryKit.h in Headers */,
+				508762ABA8DDE0364EFAB0FC565F0038 /* AGGeometryKitCategories.h in Headers */,
+				66DE7975E34BEF1FAD351A54D71976CE /* AGGeometryKitClasses.h in Headers */,
+				06E2A896A8FE48BCA6280CC02430DA96 /* AGGeometryKitCoreGraphics.h in Headers */,
+				19BEBDBC8C9DA684CF7450E896ADE3F2 /* AGKBaseDefines.h in Headers */,
+				91C538FC8FD90C8E88678AE6A0324BBB /* AGKBitOperations.h in Headers */,
+				8BCDA03160B0E24FA0518CA03D6567CF /* AGKCALayerAnimationBlockDelegate.h in Headers */,
+				43FB89DEC67F5B4CF3E888B771009768 /* AGKCorner.h in Headers */,
+				915AE3658A24199B722EC57902A5D01C /* AGKLine.h in Headers */,
+				CD7B87273214059A0054983F9186CDBD /* AGKMath.h in Headers */,
+				42BC2D795995AAB180396D8646500261 /* AGKMatrix+AGKVector3D.h in Headers */,
+				D52718BA21260CCD7A201D8868D037AC /* AGKMatrix+CATransform3D.h in Headers */,
+				A29F6492DB33047EC91719B1F6F37452 /* AGKMatrix+GLKit.h in Headers */,
+				4F71F6D416D4C11FC3373048D9A10569 /* AGKMatrix.h in Headers */,
+				91DDCA4CC00317AD0D7A25B574979B8F /* AGKQuad.h in Headers */,
+				17FCFA01B81C22770DEC91491AA40A74 /* AGKTransformPixelMapper.h in Headers */,
+				C14D340EC0D1D6AC6EF155CCD17A7109 /* AGKVector3D.h in Headers */,
+				CA0C8836CEDCB661B52EA025D8DB2409 /* CALayer+AGK+Methods.h in Headers */,
+				D3ECE2B579067FD421AF0279A8ADB981 /* CALayer+AGK+Properties.h in Headers */,
+				5D3C95D81020B4686D37F44E2FA37E17 /* CALayer+AGKQuad.h in Headers */,
+				49C26E08647DEFE5D5E632DE37CE8607 /* CGGeometry+AGGeometryKit.h in Headers */,
+				867CA4DC7AB43B29350A77F14A72575E /* CGImageRef+AGK+CATransform3D.h in Headers */,
+				3F15D0F794C1A1D6223990C4ACE84B6C /* NSValue+AGKQuad.h in Headers */,
+				34291C4FAF99FA037097DD7EC54445A6 /* UIBezierPath+AGKQuad.h in Headers */,
+				110C3CB15ED7464E59F34FACE685E6C8 /* UIImage+AGK+CATransform3D.h in Headers */,
+				17E1F15BA45FD9E7F67D657A313705F8 /* UIImage+AGKQuad.h in Headers */,
+				7C07CBED3D60EFF7CB7731E8CEBA83FC /* UIScrollView+AGK+Properties.h in Headers */,
+				17DFB87823234225C008F38419153B69 /* UIView+AGK+AngleConverter.h in Headers */,
+				C74044DCBCEEACD3A23A54CCCFEEBC6B /* UIView+AGK+Properties.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2F2DDBFE184DAF2D6AC35A2408BB3DEF /* Pods-TemplateRender */ = {
+		4EE23B5F68C9FF908330426BF9C591EA /* AGGeometryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 795FA2BE9467F14C1F1FD9B815F21E36 /* Build configuration list for PBXNativeTarget "Pods-TemplateRender" */;
+			buildConfigurationList = 5E52200A80879A872849C1C3A7B731B2 /* Build configuration list for PBXNativeTarget "AGGeometryKit" */;
 			buildPhases = (
-				98FDDAB5461F1EA8B1B07B95401ED12D /* Sources */,
-				A836F2DD19E34766D461615C2132707D /* Frameworks */,
-				7CDDC513C776370015649B966149BE6E /* Headers */,
+				1DAF9781BD4F86C654659BCF1CE8D6D6 /* Sources */,
+				25EC1C572AF5D5EC9BAB5A266D674AE3 /* Frameworks */,
+				95D0E26C5651DC0B0F58FDE3FCC0AA13 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1331BB2A067C6428A74A5417C9D5B278 /* PBXTargetDependency */,
 			);
-			name = "Pods-TemplateRender";
-			productName = "Pods-TemplateRender";
-			productReference = C9135BF7B2FDED7A5C81B1CD6046E184 /* Pods_TemplateRender.framework */;
+			name = AGGeometryKit;
+			productName = AGGeometryKit;
+			productReference = F06D20DCE0E78C17F61321F543E5C730 /* AGGeometryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9A83F63385AA43314397B8DD375464B /* Masonry */ = {
@@ -308,7 +575,26 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = FC114A80D56F1E88737D4EE3FE30426D /* Masonry.framework */;
+			productReference = A295FDC54997CDD30A2F33CD85A7D139 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8CFE0035ABFA103E6477CB403712D68 /* Pods-TemplateRender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E03B2FA7FCF23B042A0E83B18C7C5822 /* Build configuration list for PBXNativeTarget "Pods-TemplateRender" */;
+			buildPhases = (
+				668D80CFDAA28C89775D8C14E3985CDA /* Sources */,
+				CE92CC1B7CE87525F7B4B4B76F3F8EF7 /* Frameworks */,
+				4C2556138D797CA93F3D50746224DCCB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515D3C3F985A62C3CAB0C9E6EF0EAAA2 /* PBXTargetDependency */,
+				782AF5F236E3C17F94A83A3922AAA1B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TemplateRender";
+			productName = "Pods-TemplateRender";
+			productReference = CCA4BB90792FD3B19FF72990074AC3B7 /* Pods_TemplateRender.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -328,22 +614,54 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8EAC0554FBFCB24D8F95A95C9F3BE863 /* Products */;
+			productRefGroup = 67AC36887927BC717581ECE71C41D282 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4EE23B5F68C9FF908330426BF9C591EA /* AGGeometryKit */,
 				A9A83F63385AA43314397B8DD375464B /* Masonry */,
-				2F2DDBFE184DAF2D6AC35A2408BB3DEF /* Pods-TemplateRender */,
+				B8CFE0035ABFA103E6477CB403712D68 /* Pods-TemplateRender */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		98FDDAB5461F1EA8B1B07B95401ED12D /* Sources */ = {
+		1DAF9781BD4F86C654659BCF1CE8D6D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C7626ABE4D5E95193720E0806B52B1 /* Pods-TemplateRender-dummy.m in Sources */,
+				1F23D37765CFEEDCC501B3A74FB9B8D0 /* AGGeometryKit-dummy.m in Sources */,
+				95AAE274BB2C93ED6D3798C90CA38948 /* AGKCALayerAnimationBlockDelegate.m in Sources */,
+				F751E1BCE375731A0AD765487B279B14 /* AGKCorner.m in Sources */,
+				6D56DD16A4BFD66C97800817D921272C /* AGKLine.m in Sources */,
+				6CFCE8E4BA4D4BE185D8CF9915A5EDEA /* AGKMath.m in Sources */,
+				A3A43B4FCB4E639A4417C93946D8F625 /* AGKMatrix+AGKVector3D.m in Sources */,
+				D923508E09157E3F4F439D637928EB96 /* AGKMatrix+CATransform3D.m in Sources */,
+				5E2AFE1ACF610A08629E6D8B8DBC9B2F /* AGKMatrix+GLKit.m in Sources */,
+				41240DE1301495621A2D2126D09F7127 /* AGKMatrix.m in Sources */,
+				587B73CB82E01E288B06E5B35FEBE4FF /* AGKQuad.m in Sources */,
+				8CF98E48A95C4CC9513505D6D762661E /* AGKTransformPixelMapper.m in Sources */,
+				A3A5FD21F6E3FB4309D7DC5DBE6430BD /* AGKVector3D.m in Sources */,
+				742C407253A5B6B1F943B3D025C5F4CC /* CALayer+AGK+Methods.m in Sources */,
+				21FAA29B6F7C3B00E8C1F218DCD60758 /* CALayer+AGK+Properties.m in Sources */,
+				7C50C92D9DE41997D017EE7033CFC2CF /* CALayer+AGKQuad.m in Sources */,
+				35A9BB112EC4C1DF38BB4796CFADFC98 /* CGGeometry+AGGeometryKit.m in Sources */,
+				B661751E83CF3CC34EA9CD6E1750D355 /* CGImageRef+AGK+CATransform3D.m in Sources */,
+				AD3475A9FFC760BEA95A6F838F0DD48A /* NSValue+AGKQuad.m in Sources */,
+				A62277BB87C74C893BF832EC80040AA2 /* UIBezierPath+AGKQuad.m in Sources */,
+				8231899A02B3EBBF5A5466CACAA4EA21 /* UIImage+AGK+CATransform3D.m in Sources */,
+				2E3963358076CBE4834B4A54F5793E4F /* UIImage+AGKQuad.m in Sources */,
+				30E4CA5D58017EAB62773FA95C043D48 /* UIScrollView+AGK+Properties.m in Sources */,
+				B1B3580001BF0A906DD9788931CA1EC8 /* UIView+AGK+AngleConverter.m in Sources */,
+				9254AE7F1F910C7B12EF402DC4E3468F /* UIView+AGK+Properties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D80CFDAA28C89775D8C14E3985CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69EAF22C6A4C194F053134C51B92421 /* Pods-TemplateRender-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,11 +686,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1331BB2A067C6428A74A5417C9D5B278 /* PBXTargetDependency */ = {
+		515D3C3F985A62C3CAB0C9E6EF0EAAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGGeometryKit;
+			target = 4EE23B5F68C9FF908330426BF9C591EA /* AGGeometryKit */;
+			targetProxy = 2AEDF98C14A227BE835E37054927A529 /* PBXContainerItemProxy */;
+		};
+		782AF5F236E3C17F94A83A3922AAA1B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = A9A83F63385AA43314397B8DD375464B /* Masonry */;
-			targetProxy = B17C63B5C41A3AC977AAAE85BCFF51C0 /* PBXContainerItemProxy */;
+			targetProxy = 6E70C178636D9947D3B07350F9960AC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,7 +745,38 @@
 			};
 			name = Debug;
 		};
-		3B2D248E4042048C01D8E7607E13401A /* Release */ = {
+		3285BC7FECBF2E009C27C3A28C1E9151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14135181C4BDEC6B842EF06D0360CA8C /* AGGeometryKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGGeometryKit/AGGeometryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGGeometryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGGeometryKit/AGGeometryKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGGeometryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		499A9075958D1A7A17B9BB8BC6E0DF7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31AD9EFF218C107A115898268F08B8A7 /* Pods-TemplateRender.release.xcconfig */;
 			buildSettings = {
@@ -458,7 +813,7 @@
 		};
 		6FD9B226A4FDCADB42E768A4CDEB24C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			baseConfigurationReference = 146A3D5E2EF702616F6ACCC9C3247CD7 /* Masonry.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -479,41 +834,6 @@
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DCE1D6ADE6F9CAE7F328CC1D6CBEE16E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18D53EEC280372E581051C6C55882517 /* Pods-TemplateRender.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TemplateRender/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TemplateRender/Pods-TemplateRender.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TemplateRender;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -562,9 +882,40 @@
 			};
 			name = Release;
 		};
+		ED623CA65877CC6A8CBC8A191B3739FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14135181C4BDEC6B842EF06D0360CA8C /* AGGeometryKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGGeometryKit/AGGeometryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGGeometryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGGeometryKit/AGGeometryKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGGeometryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F09B4A4B31ECBACAF5B126B20AD150DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			baseConfigurationReference = 146A3D5E2EF702616F6ACCC9C3247CD7 /* Masonry.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -593,6 +944,41 @@
 			};
 			name = Release;
 		};
+		F6275CAB5F8ED570595D8C911E8A03B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D53EEC280372E581051C6C55882517 /* Pods-TemplateRender.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TemplateRender/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TemplateRender/Pods-TemplateRender.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TemplateRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -605,11 +991,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		795FA2BE9467F14C1F1FD9B815F21E36 /* Build configuration list for PBXNativeTarget "Pods-TemplateRender" */ = {
+		5E52200A80879A872849C1C3A7B731B2 /* Build configuration list for PBXNativeTarget "AGGeometryKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCE1D6ADE6F9CAE7F328CC1D6CBEE16E /* Debug */,
-				3B2D248E4042048C01D8E7607E13401A /* Release */,
+				ED623CA65877CC6A8CBC8A191B3739FB /* Debug */,
+				3285BC7FECBF2E009C27C3A28C1E9151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -619,6 +1005,15 @@
 			buildConfigurations = (
 				6FD9B226A4FDCADB42E768A4CDEB24C3 /* Debug */,
 				F09B4A4B31ECBACAF5B126B20AD150DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E03B2FA7FCF23B042A0E83B18C7C5822 /* Build configuration list for PBXNativeTarget "Pods-TemplateRender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6275CAB5F8ED570595D8C911E8A03B6 /* Debug */,
+				499A9075958D1A7A17B9BB8BC6E0DF7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
