@@ -13,6 +13,7 @@
 		4FDB48DF1DC1F7EC00734E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB48DD1DC1F7EC00734E79 /* Main.storyboard */; };
 		4FDB48E11DC1F7EC00734E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB48E01DC1F7EC00734E79 /* Assets.xcassets */; };
 		4FDB48E41DC1F7EC00734E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB48E21DC1F7EC00734E79 /* LaunchScreen.storyboard */; };
+		4FDB48ED1DC1FE8000734E79 /* TemplateRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB48EC1DC1FE8000734E79 /* TemplateRender.m */; };
 		51B7C3CE8A4B9813DD59A3FC /* Pods_TemplateRender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848DCC5195C63A007A9B02E9 /* Pods_TemplateRender.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		4FDB48E01DC1F7EC00734E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDB48E31DC1F7EC00734E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FDB48E51DC1F7EC00734E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDB48EB1DC1FE8000734E79 /* TemplateRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateRender.h; sourceTree = "<group>"; };
+		4FDB48EC1DC1FE8000734E79 /* TemplateRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateRender.m; sourceTree = "<group>"; };
 		848DCC5195C63A007A9B02E9 /* Pods_TemplateRender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateRender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CBD88A466F0AA541182702 /* Pods-TemplateRender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateRender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateRender/Pods-TemplateRender.debug.xcconfig"; sourceTree = "<group>"; };
 		D63AE225CD7CD4EE3101F362 /* Pods-TemplateRender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateRender.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateRender/Pods-TemplateRender.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 				4FDB48E21DC1F7EC00734E79 /* LaunchScreen.storyboard */,
 				4FDB48E51DC1F7EC00734E79 /* Info.plist */,
 				4FDB48D41DC1F7EC00734E79 /* Supporting Files */,
+				4FDB48EB1DC1FE8000734E79 /* TemplateRender.h */,
+				4FDB48EC1DC1FE8000734E79 /* TemplateRender.m */,
 			);
 			path = TemplateRender;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				4FDB48DC1DC1F7EC00734E79 /* ViewController.m in Sources */,
 				4FDB48D91DC1F7EC00734E79 /* AppDelegate.m in Sources */,
 				4FDB48D61DC1F7EC00734E79 /* main.m in Sources */,
+				4FDB48ED1DC1FE8000734E79 /* TemplateRender.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
