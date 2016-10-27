@@ -41,18 +41,15 @@
 
 #pragma mark Actions
 
-- (IBAction)transformButtonTapped:(UIButton *)sender {
-    UIImage* sourceImage = [UIImage imageNamed:@"template_PNG"];
-    
-    // create templateImage
-    UIImage* templateImage = [TemplateRender templateImageFromSourceImage:sourceImage];
-    
-    // update imageView
-    self.templateImageView.image = templateImage;
+- (IBAction)resetButtonTapped:(UIButton *)sender {
+    // restore inital states to all sliders
 }
 
-- (IBAction)resetButtonTapped:(UIButton *)sender {
-    self.templateImageView.image = nil;
+- (IBAction)sliderValueChanged:(UISlider *)sender {
+    // all sliders call this method when their value is changed
+    // use thier tag to diferentiate between them
+    // tags are (11, 12, 14, 21, 22, 24 respectively)
 }
+
 
 @end
