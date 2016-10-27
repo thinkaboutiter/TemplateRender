@@ -9,10 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *templateImageView;
 
 @end
 
 @implementation ViewController
+
+#pragma mark Life cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,5 +28,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark Actions
+
+- (IBAction)transformButtonTapped:(UIButton *)sender {
+}
+
+- (IBAction)resetButtonTapped:(UIButton *)sender {
+}
 
 @end
