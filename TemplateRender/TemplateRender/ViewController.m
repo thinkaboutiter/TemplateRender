@@ -21,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self configureImageView:self.templateImageView];
 }
 
 
@@ -28,6 +30,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark Configurations
+
+- (void)configureImageView:(UIImageView*)imageView
+{
+    imageView.contentMode = UIViewContentModeCenter;
+}
+
 
 #pragma mark Actions
 
