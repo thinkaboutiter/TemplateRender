@@ -7,4 +7,5 @@ target 'TemplateRender' do
 
   # Pods for TemplateRender
   pod 'Masonry', '~> 1.0'
+  pod 'AGGeometryKit'
 end

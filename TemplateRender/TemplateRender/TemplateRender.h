@@ -11,6 +11,7 @@
 
 @interface TemplateRender : NSObject
 
-+ (UIImage*)templateImageFromSourceImage:(UIImage*)sourceImage;
+//+ (UIImage*)templateImageFromSourceImage:(UIImage*)sourceImage;
++ (UIImage *)templateImageFromSourceImage:(UIImage *)sourceImage andTransform3D:(CATransform3D)transform3D;
 
 @end
