@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TemplateRender.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *templateImageView;
@@ -31,9 +32,17 @@
 #pragma mark Actions
 
 - (IBAction)transformButtonTapped:(UIButton *)sender {
+    UIImage* sourceImage = [UIImage imageNamed:@"template_PNG"];
+    
+    // create templateImage
+    UIImage* templateImage = [TemplateRender templateImageFromSourceImage:sourceImage];
+    
+    // update imageView
+    self.templateImageView.image = templateImage;
 }
 
 - (IBAction)resetButtonTapped:(UIButton *)sender {
+    self.templateImageView.image = nil;
 }
 
 @end
